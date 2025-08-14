@@ -64,8 +64,7 @@ CREATE TABLE users (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (parent_id) REFERENCES users(id)
 );
-
-
+```
 ---
 
 # ⚡ Installation
