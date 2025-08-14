@@ -9,7 +9,7 @@ _Simulated User Registration MLM System_
 
 ---
 
-📝 Description
+# 📝 Description
 
 A PHP, MySQL, and JavaScript implementation for user registration in a 4x7 MLM matrix structure. Users are organized in a tree where each node can have up to 4 children and the structure can grow up to 7 levels deep.
 
