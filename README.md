@@ -47,7 +47,7 @@ matrix_id
 
 created_at
 
----
+
 
 ## 💾 Database Setup
 
