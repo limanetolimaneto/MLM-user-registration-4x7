@@ -49,6 +49,24 @@ created_at
 
 ---
 
+## 💾 Database Setup
+
+Create the `users` table:
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    parent_id INT DEFAULT NULL,
+    level INT NOT NULL,
+    matrix_id INT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (parent_id) REFERENCES users(id)
+);
+
+
+---
+
 ⚡ Installation
 
 Clone the repository
