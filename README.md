@@ -51,6 +51,7 @@ created_at
 
 ## 💾 Database Setup
 
+Create the `users` table:
 ```sql
 Create the `users` table:
 
