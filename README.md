@@ -15,7 +15,7 @@ A PHP, MySQL, and JavaScript implementation for user registration in a 4x7 MLM m
 
 ---
 
-🚀 Features
+# 🚀 Features
 
 ✅ User registration in a 4x7 MLM matrix
 
@@ -29,7 +29,7 @@ A PHP, MySQL, and JavaScript implementation for user registration in a 4x7 MLM m
 
 ---
 
-💾 Database Structure
+# 💾 Database Structure
 
 users table with fields:
 
@@ -67,7 +67,7 @@ CREATE TABLE users (
 
 ---
 
-⚡ Installation
+# ⚡ Installation
 
 Clone the repository
 
@@ -81,7 +81,7 @@ Open browser at http://localhost:8000
 
 ---
 
-🎯 Usage
+# 🎯 Usage
 
 Fill the registration form
 
@@ -91,7 +91,7 @@ The tree structure grows up to 7 levels
 
 ---
 
-📈 Future Improvements
+# 📈 Future Improvements
 
 Visualization of the full 4x7 matrix
 
